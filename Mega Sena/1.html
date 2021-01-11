@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gerador Mega-Sena</title>
+
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+
+      <div class="title-container">
+        <h1>Gerador Mega-Sena</h1>
+       
+        
+
+       <form>
+      <p>Digite a quantidade de numeros que deseja:</p>
+      <input type="number" id="qnt" />
+      <p>Digite a quantidade de jogos que deseja:</p>
+      <input type="number" id="game" />
+      <input type="button" value="Jogar" id="btn" />
+      <div id="numeros"></div>
+    </form>
+     
+      
+      <div class="button btn-container">
+        <button type="button" class="btn btn-warning btn-lg generate" id="buttonMenu">
+          Gerar Jogo!
+        </button><br>
+
+        <td>
+          <input type="submit" value="Adicionar" id="buttonMenu" />
+      </td>
+  </form>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tableResult">
+<table>
+<tbody id="tableBody">
+</tbody>
+</table>
+<template id="templateLinhas">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</template>
+</div>
+<div class="leArquivo">
+<input type="file" id="abrir" accept=".txt,.csv"/>
+<input type="button"  id="buttonMenu" value="Salvar" onclick="salvarArquivo()"/>
+</div>
+
+      </div>
+    <script src="js.js"></script>
+  </body>
+</html>

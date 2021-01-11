@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper-age">
+    <label>
+      <h4>Insira a idade</h4>
+      <input type="text" id="n" required placeholder="Seu nome aqui"><br>
+        <input type="number" id="i" placeholder="Sua idade aqui">
+        <input type="button" value="Enviar" id="btn">
+
+    </label>
+    <label>
+      <h4>Resultado</h4>
+      <span id="resultado"></span>
+    </label>
+  </div>
+  <script>
+     var nome = document.querySelector("#n");
+var i = document.querySelector("#i");
+var botao = document.querySelector("#btn");
+
+botao.addEventListener("click", () => {
+
+    cal = (parseInt(i.value) + 1);
+    alert(n.value + ", voçe no ano que vem vai ter " + cal);
+
+})
+
+
+  </script>
+</body>
+</html>

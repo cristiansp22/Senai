@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper-age">
+    <label>
+      <h4>Insira a idade</h4>
+      <input type="text" id="nome" placeholder="Digite o seu nome"/><br/>
+      <input type="number" id="peso" placeholder="Digite o seu peso"/><br/>
+      <input type="number" id="altura" placeholder="Digite a sua altura"/><br/>
+      
+      <input type="button" id="btn" value="Executar" />
+    </label>
+    <label>
+      <h4>Resultado</h4>
+      <span id="resultado"></span>
+    </label>
+  </div>
+  <script>
+ 
+  var n = document.querySelector("#nome");
+  var a = document.querySelector("#altura");
+  var p = document.querySelector("#peso");
+  var botao = document.querySelector("#btn");
+   var i = p/(a*a);
+botao.addEventListener("click", () => {
+
+  if(i <= 16){
+    alert(n.value+' Magro(a).');
+} else if(i < 21){
+  alert(n.value+ ' Fitness.');
+} else if(i < 29.5){
+  alert(n.value+'  Sarado(a).');
+} else if(i < 40){
+  alert(n.value+'  Fofinho(a).');
+} else {
+  alert(n.value+' Gordo(a).');
+}
+  })
+
+  </script>
+</body>
+</html>

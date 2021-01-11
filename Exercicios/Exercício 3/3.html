@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper-age">
+    <label>
+      <h4>Insira a idade</h4>
+      <input type="text" id="a" placeholder="a"/><br/>
+      <input type="number" id="b" placeholder="b"/><br/>
+      <input type="number" id="c" placeholder="b"/><br/>
+      
+      <input type="button" id="btn" value="Executar" />
+    </label>
+    <label>
+      <h4>Resultado</h4>
+      <span id="resultado"></span>
+    </label>
+  </div>
+  <script>
+ 
+  var n = parseInt(document.getElementsByName("a").value );
+  var a = parseInt(document.getElementById("b").value);
+  var p = parseInt(document.getElementById("c").value);
+  var botao = document.querySelector("#btn");
+
+  botao.addEventListener("click", () => {
+if ((a == b)&&(b == c)&&(a == c)){
+    console.log('Equilátero')
+} else if ((a != b)&&(b != c)&&(a == c)){
+   alert('Isóceles');
+} else if ((a == b)&&(b != c)&&(a != c)){
+alert('Isóceles');
+} else if ((a != b)&&(b == c)&&(a != c)){
+  alert('Isóceles');
+} else if ((a != b)&&(b != c)&&(a != b)){
+  alert('Escaleno');
+}
+})
+  </script>
+</body>
+</html>

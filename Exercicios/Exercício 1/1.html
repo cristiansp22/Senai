@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper-age">
+    <label>
+      <h4>Informe as informções a baixo</h4>
+      <input type="text" id="nome" placeholder="Digite o seu nome"/><br/>
+
+      <input type="number" id="idade" placeholder="Digite a sua idade"/>
+
+      <input type="button" id="btn" value="Executar" />
+
+    </label>
+    
+  </div>
+  <script>
+     var nome = document.querySelector("#nome");
+    var idade = document.querySelector("#idade");
+    var botao = document.querySelector("#btn");
+
+botao.addEventListener("click", () => {
+
+    if (idade.value < 12) {
+        alert(nome.value + "  é uma crianca");
+    } else if (idade.value < 20) {
+        alert(nome.value + "  é um adolescente");
+    } else if (idade.value < 45) {
+        alert(nome.value + "  é um adulto(a)");
+    } else if (idade.value < 80) {
+        alert(nome.value + "  é um senhor(a)");
+    } else {
+        alert("Passou da hora");
+    }
+})
+
+  </script>
+</body>
+</html>
