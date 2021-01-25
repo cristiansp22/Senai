@@ -139,3 +139,26 @@ color: white;
 background: #0fe4c0;
 box-shadow: 0 0 10px #fbff1c, 0 0 40px #cef329, 0 0 80px #f3e521;
 }
+#btn{
+
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  left:0;
+  top:0;
+  height:40px;
+  width:300px;
+  text-align:center;
+}
+#btn:hover
+{
+color: white;
+background: #0fe4c0;
+box-shadow: 0 0 10px #fbff1c, 0 0 40px #cef329, 0 0 80px #f3e521;
+}

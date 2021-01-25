@@ -1,0 +1,7 @@
+{
+  "name": "maps_gps",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

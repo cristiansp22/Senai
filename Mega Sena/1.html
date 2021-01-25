@@ -19,44 +19,25 @@
       <input type="number" id="qnt" />
       <p>Digite a quantidade de jogos que deseja:</p>
       <input type="number" id="game" />
-      <input type="button" value="Jogar" id="btn" />
       <div id="numeros"></div>
     </form>
      
       
       <div class="button btn-container">
-        <button type="button" class="btn btn-warning btn-lg generate" id="buttonMenu">
+        <button type="button" class="btn btn-warning btn-lg generate" id="btn">
           Gerar Jogo!
         </button><br>
 
-        <td>
-          <input type="submit" value="Adicionar" id="buttonMenu" />
-      </td>
+        
   </form>
 </tr>
 </tbody>
 </table>
 </div>
-<div class="tableResult">
-<table>
-<tbody id="tableBody">
-</tbody>
-</table>
-<template id="templateLinhas">
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</template>
-</div>
-<div class="leArquivo">
-<input type="file" id="abrir" accept=".txt,.csv"/>
+
+
 <input type="button"  id="buttonMenu" value="Salvar" onclick="salvarArquivo()"/>
-</div>
+
 
       </div>
     <script src="js.js"></script>

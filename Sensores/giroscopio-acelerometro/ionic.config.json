@@ -1,0 +1,8 @@
+{
+  "name": "giroscopio-acelerometro",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
