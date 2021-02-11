@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  width: 500px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.dev {
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+.patreon {
+  border: none;
+  border-bottom: 2px solid red;
+}
+.gerente {
+  border: none;
+  border-bottom: 2px solid red;
+}
+.Cliente {
+  border: none;
+  border-bottom: 2px solid red;
+}
